@@ -99,6 +99,10 @@
     <PostBuildEvent />
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\gcFilterMatches.cpp" />
+    <ClCompile Include="src\gcHomography.cpp" />
+    <ClCompile Include="src\gcKeypointsRecover.cpp" />
+    <ClCompile Include="src\gcMatches2Points.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\testApp.cpp" />
     <ClCompile Include="..\..\..\addons\ofxCv\libs\CLD\src\ETF.cpp" />
@@ -127,6 +131,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\ofxHistogram.hpp" />
+    <ClInclude Include="src\parameters.h" />
+    <ClInclude Include="src\stdint.h" />
     <ClInclude Include="src\testApp.h" />
     <ClInclude Include="..\..\..\addons\ofxCv\src\ofxCv.h" />
     <ClInclude Include="..\..\..\addons\ofxCv\libs\CLD\include\CLD\ETF.h" />

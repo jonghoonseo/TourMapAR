@@ -82,6 +82,18 @@
     <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
       <Filter>addons\ofxXmlSettings\libs</Filter>
     </ClCompile>
+    <ClCompile Include="src\gcKeypointsRecover.cpp">
+      <Filter>src\Matching</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gcMatches2Points.cpp">
+      <Filter>src\Matching</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gcFilterMatches.cpp">
+      <Filter>src\Matching</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gcHomography.cpp">
+      <Filter>src\Matching</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -224,6 +236,9 @@
     </Filter>
     <Filter Include="addons\ofxXmlSettings\libs">
       <UniqueIdentifier>{687714a8-1662-fa1c-261f-50f068335398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Matching">
+      <UniqueIdentifier>{acd83484-d530-4cb2-a11c-cae3e523c094}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -925,6 +940,12 @@
     </ClInclude>
     <ClInclude Include="src\ofxHistogram.hpp">
       <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\parameters.h">
+      <Filter>src\Matching</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stdint.h">
+      <Filter>src\Matching</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
